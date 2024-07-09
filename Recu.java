@@ -1,6 +1,6 @@
 public class Recu {
 
-  public static main (String[] args)
+  public static void main (String[] args)
   {
     Pow(2,8);
   }
