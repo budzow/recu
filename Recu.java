@@ -5,7 +5,7 @@ public class Recu {
     Pow(2,8);
   }
   
-	int Pow(int num, int exponent)
+	private static int Pow(int num, int exponent)
 	{
 	  num = num * Pow(num, exponent-1);
 	  return num;
